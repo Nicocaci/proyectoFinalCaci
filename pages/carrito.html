@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ER ZONA SUR|Carrito</title>
+    <!-- LOGO PESTAÑA -->
+    <link rel="shortcut icon" href="../img/logoer.png" type="image/x-icon" />
+    <!-- BS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- BS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- TOASTYFY -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.2.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+</head>
+
+<!-- BODY -->
+
+<body class="bodyCarrito">
+
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <div class="text-center">
+                <img class="logo" src="../img/logoer.png" alt="Logo">
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="formularioCarritoDos">
+                    <form class="formularioCarrito d-flex" id="formularioCarritoCompras" role="search">
+                        <input class="form-control me-2 buscar" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="botonCarrito buscar" type="submit"><i class="bi bi-search"></i>Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- CARDS -->
+        <div class="divCarrito">
+
+            <div>
+
+                <h1 class="hunoCarrito"><i class="fi fi-rr-layers"></i> Productos</h1>
+
+                <div class="productoCarritoPadre text-center" id="contenedorProductos">
+                    <!-- RELLENO CON JS -->
+                </div>
+
+            </div>
+
+            <!-- CARRITO -->
+
+            <div>
+
+                <h2 class="hunoCarrito text-center"><i class="bi bi-cart"></i> Carrito</h2>
+
+                <div class="contenedorCarrito">
+
+                    <p class="carritoVacio my-0" id="carritoVacio">Tu Carrito está vacio <i class="bi bi-cart-x"></i>
+                    </p>
+
+                    <div id="contenedorCarrito">
+                        <!-- RELLENO CON JS -->
+                    </div>
+
+                </div>
+
+                <div class="carritoAcciones" id="carritoAcciones">
+                    <div>
+                        <button class="botonCarrito mx-2" id="vaciarCarrito">
+                            Vaciar Carrito
+                        </button>
+                    </div>
+                    <div>
+                        <div class="carritoAccionesTotal" id="totalCarrito">
+                            <p>Total: $0</p>
+                            <p id="total"></p>
+                        </div>
+                    </div>
+                    <button class="botonCarrito mx-2" id="comprarCarrito">
+                        Comprar Ahora
+                    </button>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="container-fluid">
+
+        <div class="d-flex justify-content-center text-center textoCarrito">
+            <div class="divFooter mx-5">
+                <h3>CONOCENOS MAS...</h3>
+                <p>ER es una empresa de zona sur, especialista en hacer escobillones, pinceles, entre otros productos para el uso diario. </p>
+            </div>
+
+            <div class="divFooter mx-5">
+                <h3>INFORMACION!</h3>
+                <p>No dudes en realizar tu compra por la pagina,
+                    y recibirlo sin salir de tu casa.
+                    Atencion al cliente: 4224-2222
+                    Gmail: erprodcutos@gmail.com</p>
+            </div>
+
+    </footer>
+
+    <!-- JS BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/carrito.js"></script>
+
+</body>
+
+</html>

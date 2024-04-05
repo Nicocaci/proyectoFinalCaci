@@ -1,0 +1,245 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* BODY */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #201f26;
+}
+
+.bodyCarrito {
+    background-image: url(../img/fotocepillos.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; }
+
+header {
+    padding-bottom: 30px;
+    border-bottom: 2px #201f26 solid;
+}
+
+footer {
+    padding-top: 30px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border-top: 2px #201f26 solid;
+}
+
+
+.divFooter {
+    width: 20%;
+}
+
+/* LOGO */
+.logo {
+    width: 150px;
+    margin: 20px;
+}
+
+.logoInicio {
+    width: 100px;
+}
+
+/* IMAGEN FONDO*/
+.fondoLogin{
+    background-color: #DCDCDC;
+}
+
+.imgFondoDos {
+    background-image: url(../img/fotocepillos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    border-right: 3px #201f26 solid;
+}
+
+.imgFondoDoss {
+    background-image: url(../img/anden.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    border-left: 3px rgb(173, 98, 173) solid;
+}
+
+/* FORMULARIO */
+.formularioInicio {
+    width: 65%;
+    background-color: rgb(242, 241, 239);
+    border-radius: 30px;
+    padding: 30px;
+    border: 4px solid #201f26;
+}
+
+.formularioCarrito {
+    width: 500px;
+}
+
+.botonInicio {
+    background-color: #201f26;
+    border: 2px solid #201f26;
+    color: white;
+}
+
+.botonCarrito,
+.botonCarritoDos {
+    background-color: #201f26;
+    border: 2px solid #201f26;
+    color: white;
+}
+
+.botonInicio,
+.botonCarrito,
+.botonCarritoDos {
+    padding: 7px;
+    border-radius: 6px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.botonInicio:hover {
+    background-color: #201f26;
+}
+
+.botonCarrito:hover {
+    background-color: #201f26;
+}
+
+.botonCarritoDos:hover {
+    background-color: #201f26;
+}
+
+a {
+    text-decoration: none;
+    color: #201f26;
+}
+
+a:hover {
+    color: #201f26;
+}
+
+/* MAIN */
+main {
+    height: 100%;
+    width: 100%;
+}
+
+/* PRODUCTO CARRITO */
+.productoCarritoPadre {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.productoCarrito {
+    width: 320px;
+    height: 400px;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px solid #201f26;
+}
+
+.productoCarrito img {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #201f26;
+    border-radius: 30px;
+}
+
+/*------------------------  CLASES JS ------------------------ */
+
+.imagenCarrito {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #201f26;
+    border-radius: 10px;
+}
+
+.divCarritoDos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.hDosCarrito {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hTresCarrito {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+/*------------------------------------------------------------ */
+
+.divCarrito {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+/* CARRITO */
+
+.hunoCarrito {
+    text-align: center;
+    padding-top: 40px;
+    color: #201f26;
+}
+
+.carritoVacio {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.contenedorCarrito {
+    background-color: transparent;
+    border: 2px #201f26 solid;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 45px;
+    width: 500px;
+}
+
+.carritoProducto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carritoDeCompra {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    border: 2px #201f26 solid;
+}
+
+.carritoNombre,
+.carritoProductoPrecio {
+    margin: 20px;
+}
+
+.carritoAcciones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.carritoAccionesTotal {
+    display: flex;
+    gap: 5px;
+}
+
+/* listo */

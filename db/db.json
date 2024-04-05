@@ -1,0 +1,92 @@
+[
+    {
+       "id": "producto 1",
+       "tipo": "Escoba",
+       "categoria": {
+          "nombre": "escoba",
+          "id": "escoba"
+       },
+       "precio": 2000,
+       "imagen": "../img/escoba.jpg"
+    },
+    {
+       "id": "producto 2",
+       "tipo": "Barrendero",
+       "categoria": {
+          "nombre": "Barrendero",
+          "id": "Barrendero"
+       },
+       "precio": 4500,
+       "imagen": "../img/barrendero.jpg"
+    },
+    {
+       "id": "producto 3",
+       "tipo": "Anden 40cm",
+       "categoria": {
+          "nombre": "Anden",
+          "id": "Anden"
+       },
+       "precio": 4000,
+       "imagen": "../img/andenChico.jpg"
+    },
+    {
+       "id": "producto 4",
+       "tipo": "Anden 60cm",
+       "categoria": {
+          "nombre": "anden",
+          "id": "anden"
+       },
+       "precio": 4200,
+       "imagen": "../img/andenMediano.jpg"
+    },
+    {
+       "id": "producto 5",
+       "tipo": "Anden 80cm",
+       "categoria": {
+          "nombre": "anden",
+          "id": "anden"
+       },
+       "precio": 4400,
+       "imagen": "../img/andenGrande.jpg"
+    },
+    {
+       "id": "producto 6",
+       "tipo": "Anden 1m",
+       "categoria": {
+          "nombre": "anden",
+          "id": "anden"
+       },
+       "precio": 4800,
+       "imagen": "../img/anden.jpg"
+    },
+    {
+       "id": "producto 7",
+       "tipo": "lavacamion",
+       "categoria": {
+          "nombre": "lavacamion",
+          "id": "lavacamiion"
+       },
+       "precio": 5000,
+       "imagen": "../img/lavacamion.jpg"
+    },
+    {
+       "id": "producto 8",
+       "tipo": "pincel chico",
+       "categoria": {
+          "nombre": "pincel",
+          "id": "pincel"
+       },
+       "precio": 3000,
+       "imagen": "../img/pincel.jpg"
+    },
+    {
+       "id": "producto 9",
+       "tipo": "Pincel grande",
+       "categoria": {
+          "nombre": "pincel",
+          "id": "pincel"
+       },
+       "precio": 4000,
+       "imagen": "../img/pincelGrande.jpg"
+    }
+ ]
