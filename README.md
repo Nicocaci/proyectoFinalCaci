@@ -1,0 +1,2 @@
+Mi Proyecto Final esta enfocado en la empresa de un amigo, la cual necesitaba la pagina, entonces, a lo largo del curso me enfonque en llegar al objetivo. Use herramientas como html, css, Js. 
+El objetivo de la pagina es facilitarle a los clientes habituales, la compra de los productos sin tener que dejar de hacer sus cosas. Cuenta con un inicio de sesión, registro de usuario y un carrito de compras.
