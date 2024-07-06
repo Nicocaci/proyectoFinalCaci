@@ -11,14 +11,13 @@ body {
 }
 
 .bodyCarrito {
-    background-image: url(../img/fotocepillos.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed; }
+    background-color: #201f26;
+    color: white;
+}
 
 header {
     padding-bottom: 30px;
-    border-bottom: 2px #201f26 solid;
+    border-bottom: 2px white  solid;
 }
 
 footer {
@@ -100,6 +99,7 @@ footer {
     padding: 7px;
     border-radius: 6px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: white;
 }
 
 .botonInicio:hover {
@@ -145,6 +145,7 @@ main {
     border-radius: 20px;
     padding: 20px;
     border: 2px solid #201f26;
+    border-color: white;
 }
 
 .productoCarrito img {
@@ -206,7 +207,7 @@ main {
 
 .contenedorCarrito {
     background-color: transparent;
-    border: 2px #201f26 solid;
+    border: 2px white solid;
     border-radius: 5px;
     padding: 20px;
     margin-top: 45px;
